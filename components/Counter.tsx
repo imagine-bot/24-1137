@@ -25,6 +25,12 @@ export default function Counter() {
         >
           Reset
         </button>
+        <button
+          className="px-4 py-2 bg-yellow-500 text-white rounded"
+          onClick={() => setCount(42)}
+        >
+          Reset to 42
+        </button>
       </div>
     </div>
   )
